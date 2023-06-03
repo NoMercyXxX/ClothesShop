@@ -1,0 +1,463 @@
+body {
+    margin: 0;
+}
+
+.block__1>h2 {
+    color: white;
+    margin: 17px;
+    font-family: Oswald;
+    font-size: 36px;
+}
+
+.block__1 {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    font-family: Oswald;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ nav > a {
+    color: white;
+    font-family: Oswald;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header>nav {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background: black;
+    padding: 0 30px;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.slide1 {
+	background-image: url(
+"nike.jpg");
+}
+
+.slide2 {
+	background-image: url(
+"nike2.jpg");
+
+}
+.slide3 {
+	background-image: url(
+"nike3.jpg");
+}
+.slide4 {
+    background-image: url(
+"nike4.jpg");
+}
+
+.arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+#arrow-left {
+	border-width: 20px 30px 20px 0;
+	border-color: transparent black transparent transparent;
+	left: 0;
+	margin-left: 20px;
+}
+
+#arrow-right {
+	border-width: 20px 0 20px 30px;
+	border-color: transparent transparent transparent black;
+	right: 0;
+	margin-right: 20px;
+}
+.block_4 > h1 {
+    font-size: 64px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+    line-height: 84px;
+}
+.block_3 > h2 {
+    color: #FD6D6D;
+    font-size: 64px;
+    font-family: Roboto Slab;
+}
+.block_4 {
+    display:flex;
+    align-items:center;
+    gap: 450px;
+}
+.block_4 > h2 {
+    color: #686868;
+    font-size:24px;
+    font-family: Roboto Slab;
+}
+.block_3 {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.block_3 > h3 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    color: #686868;
+    font-size: 24px;
+}
+.cards {
+    display:flex;
+    align-items: center;
+    gap:60px;
+}
+.cards > .card1 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card1 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card2 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card2 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding:21px;
+}
+.cards > .card3 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card3 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card4 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card4 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card5 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card5 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card6 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card6 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card7 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card7 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card8 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card8 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card9 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card9 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.cards > .card10 {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #686868;
+    border-radius: 3px;
+}
+.cards > .card10 > h2 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 21px;
+}
+.kupit {
+    text-align: center;
+    padding-top: 100px;
+}
+.kupit > button {
+    width: 1360px;
+    height: 132px;
+    top: 1697px;
+    background: #FD6D6D;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+.foot > p {
+    color: white;
+    font-family: Oswald;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background: black;
+    padding: 0 30px;
+    text-align: center;
+    display: flex;
+    align-items:start;
+    gap:250px;
+}
+.foot{
+    display: flex;
+    align-items:start;
+    padding: 40px;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.politika {
+    display: flex;
+    flex-flow: column wrap;
+    gap:14px;
+    text-align: left;
+}
+.politika > a {
+    color:#F2F2F2;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+}
+.politika > p {
+    color:#F2F2F2;
+    font-size: 24px;
+    font-family: Roboto Slab;
+ }
+
+ .contakty {
+    display: flex;
+    flex-flow: column wrap;
+    gap:14px;
+    text-align: left;
+ }
+ .contakty > a {
+    color:#F2F2F2;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+ }
+ .contakty > p {
+    color:#F2F2F2;
+    font-size: 24px;
+    font-family: Roboto Slab;
+ }
+ .socialnye_seti {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap:14px;
+    text-align: left;
+ }
+ .socialnye_seti > p {
+    color:#F2F2F2;
+    font-size: 24px;
+    font-family: Roboto Slab;
+ }
+ .socialnye_seti > .fotki {
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    text-align: left;
+ }  
+ .socialnye_seti > .fotki  > img {
+    width:33px; 
+    height:33px;
+ }
+ .podpiska > b {
+    color:#9A9A9A;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+
+ }
+.podpiska > p {
+    color:#F2F2F2;
+    font-size: 24px;
+    font-family: Roboto Slab;
+}
+.podpiska {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap:14px;
+    text-align: left;
+}
+
+.cards > .card1:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card2:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card3:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card4:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card5:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card6:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card7:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card8:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card9:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+.cards > .card10:hover {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #FD6D6D;
+    border-radius: 3px;
+    transition: 0.7s;
+}
